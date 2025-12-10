@@ -1,0 +1,4 @@
+------- Astra X Hub :
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = " KEY "
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thieengw9990/Astra-Hub/refs/heads/main/Main/Scripts"))()
